@@ -3,7 +3,7 @@ import './App.css'
 import TaskForm from './components/TaskForm'
 import TaskList from './components/TaskList'
 
-const API_URL = 'https://backend-todolist-roli.onrender.com/api'
+const API_URL = 'https://backend-todolist-l3qk.onrender.com/api'
 
 function App() {
   const [tasks, setTasks] = useState([])
