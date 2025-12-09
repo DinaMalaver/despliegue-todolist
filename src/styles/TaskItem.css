@@ -1,0 +1,17 @@
+.task-row { display:flex; align-items:flex-start; gap:0.8rem; padding:0.6rem; border-radius:8px; border:1px solid #f1f7f7; background:#fff }
+.task-row + .task-row { margin-top:0.6rem }
+.task-row.done { opacity:0.65 }
+.left-area { display:flex; gap:0.7rem; align-items:flex-start; flex:1 }
+.left-area input[type="checkbox"]{ width:18px; height:18px }
+.meta .title{ font-weight:600; color:#062c33 }
+.meta .desc{ color:#536171; font-size:0.95rem }
+.meta .date{ color:#93a0ad; font-size:0.78rem }
+.actions{ display:flex; gap:0.4rem; align-items:center }
+.btn-edit, .btn-del{ background:transparent; border:none; cursor:pointer; padding:0.3rem; border-radius:6px }
+.btn-edit:hover{ background:rgba(6,182,212,0.06) }
+.btn-del:hover{ background:rgba(239,68,68,0.06) }
+.edit-form{ display:flex; flex-direction:column; gap:0.5rem }
+.edit-in{ padding:0.5rem 0.7rem; border-radius:8px; border:1px solid #e6eef0 }
+.edit-actions{ display:flex; gap:0.5rem; justify-content:flex-end }
+.btn-save{ background:linear-gradient(90deg,#06b6d4,#0891b2); color:white; padding:0.45rem 0.7rem; border-radius:8px }
+.btn-cancel{ background:#f3f4f6; padding:0.4rem 0.6rem; border-radius:8px }

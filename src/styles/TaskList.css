@@ -1,0 +1,2 @@
+.tasks-list { display:flex; flex-direction:column; }
+.empty-message { font-size:1.05rem; color:#64748b; font-style:italic; padding:1rem }
